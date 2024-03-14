@@ -1,0 +1,13 @@
+create table leitores (
+    id int AUTO_INCREMENT PRIMARY KEY,
+    nome varchar(255),
+    endereco varchar(255),
+    cidade varchar(255),
+    estado varchar(255),
+    telefone varchar(255),
+    email varchar(255),
+    rg varchar(255),
+    categoria int,
+    dn varchar(255),
+    FOREIGN KEY (categoria) REFERENCES categoria_leitores(id)
+);
