@@ -33,7 +33,7 @@
             <button type="submit" class="btn btn-dark w-100 mb-3">
                 Login
             </button>
-            <p class="text-center">Não possui um cadastro? <a href="cadastro.php">Clique aqui</a></p>
+            <p class="text-center">Não possui um cadastro? <a href="cadastro.php" class="link-dark">Clique aqui</a></p>
         </form>
     </div>
 </div>
